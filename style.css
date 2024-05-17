@@ -1,7 +1,7 @@
 body {
     /* Color de fondo */
 /*     background-color:rgb(99, 163, 163); */
-    background: linear-gradient(#EDEEC9, #98C9A3);
+    background: linear-gradient(#000000, #ffffff);
     font-family:Arial, Helvetica, sans-serif;
     font-size: 12px;
 
@@ -9,12 +9,12 @@ body {
 
 h3 {
     /* color de texto */
-    color:brown;
+    color:rgb(174, 121, 121);
     font-size: 20px;
 }
 
 h1 {
-    color: darkgreen;
+    color: rgb(201, 146, 43);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
 }
