@@ -1,0 +1,88 @@
+body {
+    /* Color de fondo */
+/*     background-color:rgb(99, 163, 163); */
+    background: linear-gradient(#EDEEC9, #98C9A3);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+
+h3 {
+    /* color de texto */
+    color:brown;
+    font-size: 20px;
+}
+
+h1 {
+    color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+img {
+    /* cambiar tamaño de imágenes */
+    /* anchura  - pixeles (px) y porcentaje (%)*/
+    width: 20%;
+    /* bordes redondeados */
+    border-radius: 5px;
+}
+
+/* Para modificar CSS de un elemento en particular HTML, asignamos una clase (class)
+y esa la "llamamos" en el CSS con un punto ( . ) antes del */
+.bouquet3 {
+    width: 300px;
+    border-radius: 5px;
+}
+
+/* Editar div del menú */
+.menu {
+    /* Div flexible para moverse con los elementos dentro de sí */
+    display: flex;
+    /* En columna */
+    flex-direction: column;
+    /* Alinea ítems de forma centrada */
+    align-items: center;
+}
+
+/* Anclas del menú  */
+a {
+    /* color de texto */
+    color:rgb(51, 51, 51);
+    /* vinetas - linea debajo del ancla*/
+    text-decoration:none;
+    font-size: 16px;
+    /* ANCLAS COMO BOTONES */
+    background-color: #98C9A3;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+a:hover{
+    background-color: #0e5c1f;
+    color: white;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1:hover{
+    
+}
+
+.container {
+    display: flex;
+/*     flex-direction: row; */
+/* align-items -- alinear verticalmente */
+    align-items: center;
+}
+
+.logo-flower{
+    width: 25%;
+    /* margin-right (margen de un lado, el derecho para hacer espacio) */
+    margin-right: 30px;
+    margin-left: 500px;
+}
